@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct BeerDetailView: View {
     let beer: Beer

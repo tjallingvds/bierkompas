@@ -18,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A1234561234567800000017 /* BierKompas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BierKompas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1234561234567800000002 /* BierKompasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BierKompasApp.swift; sourceTree = "<group>"; };
 		8A1234561234567800000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A1234561234567800000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +26,7 @@
 		8A1234561234567800000012 /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
 		8A1234561234567800000014 /* BeerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListView.swift; sourceTree = "<group>"; };
 		8A1234561234567800000016 /* BeerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailView.swift; sourceTree = "<group>"; };
+		8A1234561234567800000017 /* BierKompas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BierKompas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1234561234567800000018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -331,7 +331,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,22 +360,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A1234561234567800000032 /* Build configuration list for PBXProject "BierKompas" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A1234561234567800000033 /* Debug */,
-				8A1234561234567800000034 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8A1234561234567800000028 /* Build configuration list for PBXNativeTarget "BierKompas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -385,7 +376,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8A1234561234567800000032 /* Build configuration list for PBXProject "BierKompas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1234561234567800000033 /* Debug */,
+				8A1234561234567800000034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 8A1234561234567800000031 /* Project object */;
-} 
+}

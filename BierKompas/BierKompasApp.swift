@@ -1,4 +1,5 @@
 import SwiftUI
+import CoreLocation
 
 @main
 struct BierKompasApp: App {

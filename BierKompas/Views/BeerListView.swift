@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 struct BeerListView: View {
     @ObservedObject var viewModel: BeerViewModel
